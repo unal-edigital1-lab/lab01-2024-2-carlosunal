@@ -1,6 +1,10 @@
 # lab01- sumador 
 ## nombres
-EDITANDO EL PROYECTO
+CARLOS ANDRÉS ESCOBAR BEJARANO
 ## informe de laoratorio 
+
+
+
+
 
 ### sumador 
