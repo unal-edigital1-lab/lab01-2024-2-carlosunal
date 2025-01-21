@@ -1,6 +1,6 @@
 # lab01- sumador 
 ## nombres
-ffffff
+EDITANDO EL PROYECTO
 ## informe de laoratorio 
 
 ### sumador 
