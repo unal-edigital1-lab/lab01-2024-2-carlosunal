@@ -9,7 +9,7 @@ La diferencia más notable es su enfoque, uno emplea registros para manejar el r
 
 ---
 
-### Código 1: `sum1bcc.v`
+### SUMADOR: `sum1bcc.v`
 ```verilog
 module sum1bcc (A, B, Ci, Cout, S);
 
@@ -49,7 +49,7 @@ El módulo utiliza un registro para manejar la operación aritmética y divide e
 
 ---
 
-### Código 2: `sum1bcc_primitive.v`
+### SUMADOR PRIMITIVO: `sum1bcc_primitive.v`
 ```verilog
 module sum1bcc_primitive (A, B, Ci, Cout, S);
 
@@ -98,9 +98,3 @@ Ambas implementaciones cumplen con la misma función de sumar tres bits y genera
 
 
 
-
-
-
-
-
-### sumador 
