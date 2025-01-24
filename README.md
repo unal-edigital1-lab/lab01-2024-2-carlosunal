@@ -29,6 +29,8 @@ module sum1bcc (A, B, Ci, Cout, S);
 
 endmodule
 ```
+![Sumador Primitivo](imagenes/Sum1normal.jpg)
+
 
 #### Explicación del Funcionamiento
 1. **Entradas**: `A`, `B` y `Ci` representan los bits de entrada y el acarreo de entrada, respectivamente.
@@ -69,6 +71,8 @@ module sum1bcc_primitive (A, B, Ci, Cout, S);
   or (Cout, cout_t, a_ab); // La salida Cout es la combinación del acarreo temporal y a_ab
 endmodule
 ```
+![Sumador Primitivo](imagenes/Sum1Primitivo.jpg)
+
 
 #### Explicación del Funcionamiento
 1. **Entradas**: `A`, `B` y `Ci` son los bits de entrada y el acarreo de entrada.
@@ -85,20 +89,9 @@ endmodule
 
 ---
 
-### Comparación entre Implementaciones
-| Característica       | `sum1bcc.v`               | `sum1bcc_primitive.v`      |
-|-----------------------|---------------------------|----------------------------|
-| **Enfoque**          | Uso de registros          | Uso de puertas lógicas     |
-| **Simplicidad**      | Más sencilla             | Requiere más detalle       |
-| **Uso de recursos**  | Mayor debido al registro  | Menor, más eficiente       |
-| **Comprensión**      | Abstracta (orientada al diseño) | Explícita (nivel de componentes) |
+Ambas implementaciones cumplen con la misma función de sumar tres bits y generar una salida de suma y un acarreo. Pero de este laboratorio se rescató que `sum1bcc_primitive.v` proporciona un modelo más detallado del funcionamiento interno, siendo más representativo del hardware real. Por otro lado, de los experimentos se pudo notar que `sum1bcc.v` es más sencillo y legible, ideal para aplicaciones donde el diseño no requiere granularidad en las operaciones lógicas.
 
----
 
-### Conclusión
-Ambas implementaciones cumplen con la misma función de sumar tres bits y generar una salida de suma y un acarreo. Sin embargo, `sum1bcc_primitive.v` proporciona un modelo más detallado del funcionamiento interno, siendo más representativo del hardware real. Por otro lado, `sum1bcc.v` es más sencillo y legible, ideal para aplicaciones donde el diseño no requiere granularidad en las operaciones lógicas.
-
-Se recomienda utilizar `sum1bcc_primitive.v` en situaciones donde la eficiencia de recursos y el entendimiento a nivel de hardware sean prioritarios.
 
 
 
