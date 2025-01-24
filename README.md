@@ -1,4 +1,6 @@
 # lab01- sumador 
+NOMBRES
+## PRUEBA DE CAMBIOS
 ## nombres
 CARLOS ANDRÉS ESCOBAR BEJARANO
 ## informe de laoratorio 
