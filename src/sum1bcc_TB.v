@@ -1,3 +1,5 @@
+include "sum1bcc.v"
+timescale 1ns/1ps
 module sum1bcc_TB;
 
   reg x;
