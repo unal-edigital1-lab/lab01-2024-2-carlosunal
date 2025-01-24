@@ -29,7 +29,7 @@ module sum1bcc (A, B, Ci, Cout, S);
 
 endmodule
 ```
-![Sumador](C:/Users/caran/Downloads/Digital%201/imagenes/Sum1normal.jpg)
+![Sumador](C:\Users\caran\Documents\GitHub\lab01-2024-2-carlosunal\imagenes\Sum1normal.jpg)
 
 
 
@@ -72,7 +72,7 @@ module sum1bcc_primitive (A, B, Ci, Cout, S);
   or (Cout, cout_t, a_ab); // La salida Cout es la combinación del acarreo temporal y a_ab
 endmodule
 ```
-![Sumador Primitivo](C:/Users/caran/Downloads/Digital%201/imagenes/Sum1Primitivo.jpg)
+![Sumador Primitivo](C:\Users\caran\Documents\GitHub\lab01-2024-2-carlosunal\imagenes\Sum1Primitivo.jpg)
 
 
 #### Explicación del Funcionamiento
