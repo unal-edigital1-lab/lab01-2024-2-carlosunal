@@ -1,6 +1,6 @@
 # lab01- sumador 
-## nombres
-CARLOS ANDRÉS ESCOBAR BEJARANO
+## CARLOS ANDRÉS ESCOBAR BEJARANO
+
 ## informe de laboratorio
 
 Acá detallo el funcionamiento de dos implementaciones de un sumador binario de un bit: `sum1bcc.v` y `sum1bcc_primitive.v`. Los sumadores son bloques fundamentales en sistemas digitales, utilizados en operaciones aritméticas y circuitos de mayor complejidad, como unidades aritmético-lógicas (ALU).
@@ -29,7 +29,8 @@ module sum1bcc (A, B, Ci, Cout, S);
 
 endmodule
 ```
-![Sumador Primitivo](imagenes/Sum1normal.jpg)
+![Sumador](C:/Users/caran/Downloads/Digital%201/imagenes/Sum1normal.jpg)
+
 
 
 #### Explicación del Funcionamiento
@@ -71,7 +72,7 @@ module sum1bcc_primitive (A, B, Ci, Cout, S);
   or (Cout, cout_t, a_ab); // La salida Cout es la combinación del acarreo temporal y a_ab
 endmodule
 ```
-![Sumador Primitivo](imagenes/Sum1Primitivo.jpg)
+![Sumador Primitivo](C:/Users/caran/Downloads/Digital%201/imagenes/Sum1Primitivo.jpg)
 
 
 #### Explicación del Funcionamiento
